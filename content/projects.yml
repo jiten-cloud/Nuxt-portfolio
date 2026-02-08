@@ -1,6 +1,39 @@
-title: Designing Interfaces, Building Experiences.
-description: I've worked on a variety of projects, focusing on creating intuitive digital experiences where thoughtful design meets clean code. Here are some highlights I'm proud of, showcasing my process from concept to execution.
+title: Building Products, Solving Real Problems.
+description: |
+  I've worked on multiple full-stack projects focused on scalability, performance, and real-world use cases.
+  These projects showcase my experience across frontend, backend, and cloud infrastructure — from concept and architecture to production-ready execution.
+
 links:
   - label: "Let's talk"
     color: "neutral"
-  - label: 'Email me'
+    to: "/#contact"
+  - label: "Email me"
+    to: "mailto:jitenderkumar301995@gmail.com"
+
+projects:
+  - name: "Interactive Video Quiz Platform"
+    description: |
+      A media-rich platform that allows authors to create interactive video-based quizzes by inserting questions at multiple breakpoints.
+      Designed to support scalable content creation and seamless user interaction.
+    highlights:
+      - Reduced quiz creation time by 60% through intuitive authoring workflows
+      - Implemented secure video uploads and storage using AWS S3
+      - Built role-based dashboards for authors and administrators
+    stack:
+      - Next.js
+      - Node.js
+      - NestJS
+      - Tailwind CSS
+      - Zustand
+      - AWS S3
+
+  - name: "Image Optimizer Web App"
+    description: |
+      A lightweight web application that optimizes and compresses images to improve performance and reduce load times.
+      Focused on simplicity, speed, and a clean user experience.
+    highlights:
+      - Improved page load performance by reducing image asset sizes
+      - Responsive UI built with Tailwind CSS
+    stack:
+      - Next.js
+      - Tailwind CSS
